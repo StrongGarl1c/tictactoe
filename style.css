@@ -1,0 +1,20 @@
+#grid {
+  /* margin: 30vh 50%; */
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 5px;
+  justify-content: center;
+}
+
+#grid div {
+  background-color: #ccc;
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  padding: 10px;
+  font-size: 50px;
+}
+
+p {
+  margin: 0;
+}
